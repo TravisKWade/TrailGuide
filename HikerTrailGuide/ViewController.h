@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "TrailPark.h"
+#import "TrailMapOverlayView.h"
+#import "TrailMapOverlay.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
 
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
+@property (strong, nonatomic) TrailPark *park;
+@property (strong, nonatomic) CLLocationManager *locationManager;
 
 @end
 

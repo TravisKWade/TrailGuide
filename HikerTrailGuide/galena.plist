@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   galena.plist
+   HikerTrailGuide
+
+   Created by Travis Wade on 11/22/16.
+   Copyright (c) 2016 Branvis Software. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>midCoord</key>
+        <string>{47.52916666666667,-116.1875}</string>
+        <key>overlayTopLeftCoord</key>
+        <string>{47.541666666666664,-116.25}</string>
+        <key>overlayTopRightCoord</key>
+        <string>{47.541666666666664,-116.125}</string>
+        <key>overlayBottomLeftCoord</key>
+        <string>{47.5,-116.25}</string>
+        <key>trail</key>
+        <array>
+           <string>{47.539779,-116.159016}</string>
+           <string>{47.539656,-116.159182}</string>
+           <string>{47.539670,-116.159056}</string>
+           <string>{47.539643,-116.158962}</string>
+           <string>{47.539457,-116.158793}</string>
+           <string>{47.539250,-116.158812}</string>
+           <string>{47.538868,-116.158691}</string>
+           <string>{47.538660,-116.158380}</string>
+           <string>{47.538097,-116.159099}</string>
+           <string>{47.537496,-116.159571}</string>
+           <string>{47.536936,-116.159775}</string>
+           <string>{47.536831,-116.160051}</string>
+           <string>{47.536215,-116.160387}</string>
+           <string>{47.536038,-116.160387}</string>
+           <string>{47.535757,-116.160496}</string>
+           <string>{47.535578,-116.160647}</string>
+           <string>{47.535478,-116.160759}</string>
+           <string>{47.535263,-116.160853}</string>
+           <string>{47.534635,-116.160574}</string>
+           <string>{47.534593,-116.160510}</string>
+           <string>{47.534580,-116.160421}</string>
+           <string>{47.534597,-116.160132}</string>
+           <string>{47.534562,-116.160067}</string>
+           <string>{47.534466,-116.160065}</string>
+           <string>{47.534425,-116.160054}</string>
+           <string>{47.534350,-116.159984}</string>
+           <string>{47.534236,-116.159947}</string>
+           <string>{47.534117,-116.159880}</string>
+           <string>{47.533959,-116.159944}</string>
+           <string>{47.533879,-116.159957}</string>
+           <string>{47.533704,-116.160097}</string>
+           <string>{47.533409,-116.160236}</string>
+           <string>{47.533257,-116.160381}</string>
+           <string>{47.533110,-116.160456}</string>
+           <string>{47.533037,-116.160558}</string>
+           <string>{47.532965,-116.160759}</string>
+           <string>{47.532869,-116.160899}</string>
+           <string>{47.532713,-116.161006}</string>
+           <string>{47.532650,-116.161229}</string>
+           <string>{47.532664,-116.161593}</string>
+           <string>{47.532720,-116.161813}</string>
+           <string>{47.532710,-116.161948}</string>
+           <string>{47.532733,-116.162058}</string>
+           <string>{47.532844,-116.162192}</string>
+           <string>{47.532952,-116.162267}</string>
+           <string>{47.533139,-116.162251}</string>
+           <string>{47.533285,-116.162100}</string>
+           <string>{47.533318,-116.162106}</string>
+           <string>{47.533340,-116.162154}</string>
+           <string>{47.533325,-116.162216}</string>
+           <string>{47.533057,-116.162481}</string>
+           <string>{47.532789,-116.162747}</string>
+           <string>{47.532621,-116.162792}</string>
+           <string>{47.532590,-116.162830}</string>
+           <string>{47.532590,-116.162892}</string>
+           <string>{47.532626,-116.162921}</string>
+           <string>{47.532893,-116.162865}</string>
+           <string>{47.532965,-116.162819}</string>
+           <string>{47.533001,-116.162830}</string>
+           <string>{47.533007,-116.162876}</string>
+           <string>{47.532617,-116.163256}</string>
+           <string>{47.532585,-116.163340}</string>
+           <string>{47.532588,-116.163391}</string>
+           <string>{47.532615,-116.163425}</string>
+           <string>{47.532686,-116.163318}</string>
+           <string>{47.532722,-116.163302}</string>
+           <string>{47.532757,-116.163358}</string>
+           <string>{47.532682,-116.163527}</string>
+           <string>{47.532623,-116.163613}</string>
+           <string>{47.532476,-116.163793}</string>
+           <string>{47.532391,-116.163981}</string>
+           <string>{47.532346,-116.164211}</string>
+           <string>{47.532313,-116.164244}</string>
+           <string>{47.532284,-116.164198}</string>
+           <string>{47.532273,-116.163680}</string>
+           <string>{47.532215,-116.163554}</string>
+           <string>{47.532110,-116.163487}</string>
+           <string>{47.531976,-116.163305}</string>
+           <string>{47.531956,-116.163157}</string>
+           <string>{47.531951,-116.162994}</string>
+           <string>{47.531884,-116.162216}</string>
+           <string>{47.531924,-116.162060}</string>
+           <string>{47.531982,-116.161977}</string>
+           <string>{47.532137,-116.161773}</string>
+           <string>{47.532143,-116.161714}</string>
+           <string>{47.532101,-116.161543}</string>
+           <string>{47.532043,-116.161575}</string>
+           <string>{47.531947,-116.161840}</string>
+           <string>{47.531895,-116.161848}</string>
+           <string>{47.531864,-116.161585}</string>
+           <string>{47.531817,-116.161564}</string>
+           <string>{47.531755,-116.161674}</string>
+           <string>{47.531715,-116.161661}</string>
+           <string>{47.531699,-116.161473}</string>
+           <string>{47.531599,-116.160923}</string>
+           <string>{47.531567,-116.160891}</string>
+           <string>{47.531540,-116.160936}</string>
+           <string>{47.531534,-116.161081}</string>
+           <string>{47.531505,-116.161113}</string>
+           <string>{47.531464,-116.161084}</string>
+           <string>{47.531420,-116.160786}</string>
+           <string>{47.531373,-116.160730}</string>
+           <string>{47.531301,-116.160727}</string>
+           <string>{47.531252,-116.160757}</string>
+           <string>{47.531219,-116.160893}</string>
+           <string>{47.531225,-116.161138}</string>
+           <string>{47.531161,-116.161430}</string>
+           <string>{47.531161,-116.161564}</string>
+           <string>{47.531206,-116.161789}</string>
+           <string>{47.531235,-116.162253}</string>
+           <string>{47.531402,-116.162575}</string>
+           <string>{47.531417,-116.162696}</string>
+           <string>{47.531330,-116.163063}</string>
+           <string>{47.531319,-116.163181}</string>
+           <string>{47.531328,-116.163348}</string>
+           <string>{47.531302,-116.163436}</string>
+           <string>{47.531208,-116.163616}</string>
+           <string>{47.531201,-116.163704}</string>
+           <string>{47.531259,-116.164174}</string>
+           <string>{47.531243,-116.164343}</string>
+           <string>{47.531281,-116.164598}</string>
+           <string>{47.531274,-116.164683}</string>
+           <string>{47.531031,-116.165365}</string>
+           <string>{47.530953,-116.165518}</string>
+           <string>{47.530873,-116.165770}</string>
+           <string>{47.530732,-116.165874}</string>
+           <string>{47.530696,-116.165925}</string>
+           <string>{47.530670,-116.166049}</string>
+           <string>{47.530708,-116.166451}</string>
+           <string>{47.530808,-116.166674}</string>
+           <string>{47.530808,-116.166762}</string>
+           <string>{47.530737,-116.166950}</string>
+           <string>{47.530714,-116.167017}</string>
+           <string>{47.530678,-116.167296}</string>
+           <string>{47.530699,-116.167427}</string>
+           <string>{47.530739,-116.167508}</string>
+           <string>{47.530984,-116.167752}</string>
+           <string>{47.531013,-116.167824}</string>
+           <string>{47.531020,-116.167993}</string>
+           <string>{47.531058,-116.168117}</string>
+           <string>{47.531045,-116.168202}</string>
+           <string>{47.530969,-116.168278}</string>
+           <string>{47.530953,-116.168374}</string>
+           <string>{47.531009,-116.168487}</string>
+           <string>{47.531163,-116.168538}</string>
+           <string>{47.531250,-116.168487}</string>
+           <string>{47.531408,-116.168404}</string>
+           <string>{47.531447,-116.168334}</string>
+           <string>{47.531496,-116.168184}</string>
+           <string>{47.531551,-116.168111}</string>
+           <string>{47.531811,-116.168028}</string>
+           <string>{47.532023,-116.168106}</string>
+           <string>{47.532110,-116.168117}</string>
+           <string>{47.532384,-116.168023}</string>
+           <string>{47.532454,-116.167950}</string>
+           <string>{47.532550,-116.167827}</string>
+           <string>{47.532606,-116.167795}</string>
+           <string>{47.532731,-116.167760}</string>
+           <string>{47.532802,-116.167696}</string>
+           <string>{47.533135,-116.167186}</string>
+           <string>{47.533220,-116.166934}</string>
+           <string>{47.533253,-116.166934}</string>
+           <string>{47.533380,-116.166687}</string>
+           <string>{47.533423,-116.166604}</string>
+           <string>{47.533526,-116.166293}</string>
+           <string>{47.533577,-116.165965}</string>
+           <string>{47.533651,-116.165665}</string>
+           <string>{47.533689,-116.165453}</string>
+           <string>{47.533735,-116.165386}</string>
+           <string>{47.533825,-116.165247}</string>
+           <string>{47.533858,-116.164630}</string>
+           <string>{47.533764,-116.164147}</string>
+           <string>{47.533651,-116.163975}</string>
+           <string>{47.533660,-116.163828}</string>
+           <string>{47.533697,-116.163731}</string>
+           <string>{47.533760,-116.163680}</string>
+           <string>{47.533818,-116.163600}</string>
+           <string>{47.533901,-116.163565}</string>
+           <string>{47.534019,-116.163570}</string>
+           <string>{47.534135,-116.163514}</string>
+           <string>{47.534249,-116.163557}</string>
+           <string>{47.534310,-116.163535}</string>
+           <string>{47.534374,-116.163506}</string>
+           <string>{47.534470,-116.163632}</string>
+           <string>{47.534468,-116.163686}</string>
+           <string>{47.534291,-116.164045}</string>
+           <string>{47.534280,-116.164131}</string>
+           <string>{47.534305,-116.164614}</string>
+           <string>{47.534388,-116.164780}</string>
+           <string>{47.534484,-116.164844}</string>
+           <string>{47.534606,-116.164844}</string>
+           <string>{47.534763,-116.165051}</string>
+           <string>{47.534843,-116.165341}</string>
+           <string>{47.534885,-116.165343}</string>
+           <string>{47.534904,-116.165290}</string>
+           <string>{47.534890,-116.165158}</string>
+           <string>{47.534906,-116.165118}</string>
+           <string>{47.534944,-116.165142}</string>
+           <string>{47.535102,-116.165558}</string>
+           <string>{47.535067,-116.165764}</string>
+           <string>{47.535114,-116.166000}</string>
+           <string>{47.535093,-116.166285}</string>
+           <string>{47.535129,-116.166336}</string>
+           <string>{47.535163,-116.166309}</string>
+           <string>{47.535221,-116.166151}</string>
+           <string>{47.535259,-116.166129}</string>
+           <string>{47.535287,-116.166177}</string>
+           <string>{47.535287,-116.166322}</string>
+           <string>{47.535319,-116.166368}</string>
+           <string>{47.535359,-116.166330}</string>
+           <string>{47.535466,-116.165874}</string>
+           <string>{47.535536,-116.165721}</string>
+           <string>{47.535580,-116.165716}</string>
+           <string>{47.535611,-116.165775}</string>
+           <string>{47.535616,-116.165949}</string>
+           <string>{47.535652,-116.165995}</string>
+           <string>{47.535696,-116.165965}</string>
+           <string>{47.535746,-116.165815}</string>
+           <string>{47.535790,-116.165786}</string>
+           <string>{47.535832,-116.165837}</string>
+           <string>{47.535926,-116.166145}</string>
+           <string>{47.535962,-116.166177}</string>
+           <string>{47.536011,-116.166132}</string>
+           <string>{47.536081,-116.165912}</string>
+           <string>{47.536221,-116.165743}</string>
+           <string>{47.536261,-116.165660}</string>
+           <string>{47.536292,-116.165507}</string>
+           <string>{47.536326,-116.165472}</string>
+           <string>{47.536360,-116.165507}</string>
+           <string>{47.536388,-116.165649}</string>
+           <string>{47.536427,-116.165665}</string>
+           <string>{47.536451,-116.165622}</string>
+           <string>{47.536480,-116.165467}</string>
+           <string>{47.536532,-116.165429}</string>
+           <string>{47.536554,-116.165469}</string>
+           <string>{47.536585,-116.165622}</string>
+           <string>{47.536639,-116.165660}</string>
+           <string>{47.536780,-116.165520}</string>
+           <string>{47.537175,-116.165662}</string>
+           <string>{47.537244,-116.165746}</string>
+           <string>{47.537369,-116.165788}</string>
+           <string>{47.537503,-116.165947}</string>
+           <string>{47.537818,-116.166067}</string>
+           <string>{47.537961,-116.165936}</string>
+           <string>{47.538057,-116.165955}</string>
+           <string>{47.538240,-116.166212}</string>
+           <string>{47.538356,-116.166244}</string>
+           <string>{47.538591,-116.166059}</string>
+           <string>{47.538624,-116.165976}</string>
+           <string>{47.538617,-116.165837}</string>
+           <string>{47.538727,-116.165853}</string>
+           <string>{47.538810,-116.165759}</string>
+           <string>{47.538923,-116.165622}</string>
+           <string>{47.539107,-116.165496}</string>
+           <string>{47.539210,-116.165536}</string>
+           <string>{47.539354,-116.165477}</string>
+           <string>{47.539439,-116.165324}</string>
+           <string>{47.539471,-116.165161}</string>
+           <string>{47.539524,-116.165083}</string>
+           <string>{47.539469,-116.165000}</string>
+           <string>{47.539475,-116.164836}</string>
+           <string>{47.539535,-116.164702}</string>
+           <string>{47.539529,-116.164555}</string>
+           <string>{47.539473,-116.164337}</string>
+           <string>{47.539437,-116.164101}</string>
+           <string>{47.539397,-116.164026}</string>
+           <string>{47.539214,-116.163844}</string>
+           <string>{47.539192,-116.163766}</string>
+           <string>{47.539225,-116.163543}</string>
+           <string>{47.539203,-116.163455}</string>
+           <string>{47.539109,-116.163334}</string>
+           <string>{47.539095,-116.163248}</string>
+           <string>{47.539116,-116.163120}</string>
+           <string>{47.539109,-116.163020}</string>
+           <string>{47.539049,-116.162830}</string>
+           <string>{47.539205,-116.162186}</string>
+           <string>{47.539239,-116.162138}</string>
+           <string>{47.539330,-116.162039}</string>
+           <string>{47.539386,-116.161556}</string>
+           <string>{47.539375,-116.161298}</string>
+           <string>{47.539424,-116.160915}</string>
+           <string>{47.539419,-116.160834}</string>
+           <string>{47.539359,-116.160633}</string>
+           <string>{47.539372,-116.160574}</string>
+           <string>{47.539468,-116.160446}</string>
+           <string>{47.539506,-116.160263}</string>
+           <string>{47.539509,-116.160057}</string>
+           <string>{47.539564,-116.159847}</string>
+           <string>{47.539573,-116.159735}</string>
+           <string>{47.539558,-116.159520}</string>
+           <string>{47.539578,-116.159405}</string>
+           <string>{47.539656,-116.159182}</string>
+        </array>
+    </dict>
+</plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
