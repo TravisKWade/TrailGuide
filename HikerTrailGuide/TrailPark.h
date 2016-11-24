@@ -21,8 +21,8 @@
 @property (nonatomic, readonly) CLLocationCoordinate2D overlayBottomRightCoordinate;
 
 @property (nonatomic, readonly) MKMapRect overlayBoundingMapRect;
-
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSMutableArray *trailAnnotations;
 
 - (instancetype)initWithFilename:(NSString *)filename;
 

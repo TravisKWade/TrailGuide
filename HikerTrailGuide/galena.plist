@@ -312,6 +312,160 @@
            <string>{47.539578,-116.159405}</string>
            <string>{47.539656,-116.159182}</string>
         </array>
+        <key>annotations</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>Trailhead</string>
+                <key>location</key>
+                <string>{47.539777,-116.159057}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail start.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Intersection</string>
+                <key>location</key>
+                <string>{47.538677,-116.158390}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Cart path trail intersects with the road.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Parking</string>
+                <key>location</key>
+                <string>{47.537951,-116.159513}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Clubhouse parking lot.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Intersection</string>
+                <key>location</key>
+                <string>{47.536935,-116.159819}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail leaves the road</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Gate</string>
+                <key>location</key>
+                <string>{47.536210,-116.160394}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string></string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Creek</string>
+                <key>location</key>
+                <string>{47.534655,-116.160641}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Creek goes under the trail.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Trail Change</string>
+                <key>location</key>
+                <string>{47.532703,-116.161719}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail turns from aspalt to dirt</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Creek</string>
+                <key>location</key>
+                <string>{47.532186,-116.163521}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Creek goes under the trail.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Pumphouse</string>
+                <key>location</key>
+                <string>{47.530517,-116.167510}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>I think that this is a pumphouse</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Lake</string>
+                <key>location</key>
+                <string>{47.530605,-116.168219}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Lake that waters the course</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Trail Change</string>
+                <key>location</key>
+                <string>{47.530605,-116.168219}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail changes from dirt to aspalt</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Trail Change</string>
+                <key>location</key>
+                <string>{47.535101,-116.166311}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail changes from aspalt to dirt</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Trail Change</string>
+                <key>location</key>
+                <string>{47.538553,-116.166110}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Trail changes from dirt to aspalt</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Intersection</string>
+                <key>location</key>
+                <string>{47.538619,-116.165832}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Leave the trail and take the grass.</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Intersection</string>
+                <key>location</key>
+                <string>{47.539471,-116.164830}</string>
+                <key>type</key>
+                <string>1</string>
+                <key>subtitle</key>
+                <string>Leave the grass and get back on the trail</string>
+            </dict>
+
+        </array>
     </dict>
 </plist>
 

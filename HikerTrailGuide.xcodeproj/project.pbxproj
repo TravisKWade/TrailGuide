@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4138C81DE6879200EC3242 /* TrailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4138C71DE6879200EC3242 /* TrailAnnotation.m */; };
+		1F4138CB1DE6885D00EC3242 /* TrailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */; };
 		1F783FFC1DE5EEBC003C3F7B /* galena.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F783FFB1DE5EEBC003C3F7B /* galena.png */; };
 		1FCD60F61DE4B9F900DA3CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD60F51DE4B9F900DA3CA5 /* main.m */; };
 		1FCD60F91DE4B9F900DA3CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD60F81DE4B9F900DA3CA5 /* AppDelegate.m */; };
@@ -16,7 +18,6 @@
 		1FCD61041DE4B9F900DA3CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61031DE4B9F900DA3CA5 /* Assets.xcassets */; };
 		1FCD61071DE4B9F900DA3CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61051DE4B9F900DA3CA5 /* LaunchScreen.storyboard */; };
 		1FCD61121DE4CC6D00DA3CA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCD61111DE4CC6D00DA3CA5 /* MapKit.framework */; };
-		1FCD61141DE5104D00DA3CA5 /* hole5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61131DE5104D00DA3CA5 /* hole5.gpx */; };
 		1FCD61161DE5174200DA3CA5 /* galena.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD61151DE5174200DA3CA5 /* galena.plist */; };
 		1FCD61191DE51A5800DA3CA5 /* TrailPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD61181DE51A5800DA3CA5 /* TrailPark.m */; };
 		1FCD611C1DE51D9C00DA3CA5 /* TrailMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD611B1DE51D9C00DA3CA5 /* TrailMapOverlay.m */; };
@@ -24,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4138C61DE6879200EC3242 /* TrailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailAnnotation.h; sourceTree = "<group>"; };
+		1F4138C71DE6879200EC3242 /* TrailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailAnnotation.m; sourceTree = "<group>"; };
+		1F4138C91DE6885D00EC3242 /* TrailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailAnnotationView.h; sourceTree = "<group>"; };
+		1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailAnnotationView.m; sourceTree = "<group>"; };
 		1F783FFB1DE5EEBC003C3F7B /* galena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galena.png; path = ../../../../../../Desktop/galena.png; sourceTree = "<group>"; };
 		1FCD60F11DE4B9F900DA3CA5 /* HikerTrailGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikerTrailGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCD60F51DE4B9F900DA3CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +42,6 @@
 		1FCD61061DE4B9F900DA3CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FCD61081DE4B9F900DA3CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FCD61111DE4CC6D00DA3CA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		1FCD61131DE5104D00DA3CA5 /* hole5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hole5.gpx; sourceTree = SOURCE_ROOT; };
 		1FCD61151DE5174200DA3CA5 /* galena.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = galena.plist; sourceTree = "<group>"; };
 		1FCD61171DE51A5800DA3CA5 /* TrailPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailPark.h; sourceTree = "<group>"; };
 		1FCD61181DE51A5800DA3CA5 /* TrailPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailPark.m; sourceTree = "<group>"; };
@@ -80,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				1F783FFB1DE5EEBC003C3F7B /* galena.png */,
-				1FCD61131DE5104D00DA3CA5 /* hole5.gpx */,
 				1FCD60F71DE4B9F900DA3CA5 /* AppDelegate.h */,
 				1FCD60F81DE4B9F900DA3CA5 /* AppDelegate.m */,
 				1FCD60FA1DE4B9F900DA3CA5 /* ViewController.h */,
@@ -98,6 +101,10 @@
 				1FCD611B1DE51D9C00DA3CA5 /* TrailMapOverlay.m */,
 				1FCD611D1DE51E4000DA3CA5 /* TrailMapOverlayView.h */,
 				1FCD611E1DE51E4000DA3CA5 /* TrailMapOverlayView.m */,
+				1F4138C61DE6879200EC3242 /* TrailAnnotation.h */,
+				1F4138C71DE6879200EC3242 /* TrailAnnotation.m */,
+				1F4138C91DE6885D00EC3242 /* TrailAnnotationView.h */,
+				1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */,
 			);
 			path = HikerTrailGuide;
 			sourceTree = "<group>";
@@ -181,7 +188,6 @@
 				1FCD61071DE4B9F900DA3CA5 /* LaunchScreen.storyboard in Resources */,
 				1FCD61041DE4B9F900DA3CA5 /* Assets.xcassets in Resources */,
 				1F783FFC1DE5EEBC003C3F7B /* galena.png in Resources */,
-				1FCD61141DE5104D00DA3CA5 /* hole5.gpx in Resources */,
 				1FCD60FF1DE4B9F900DA3CA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,8 +202,10 @@
 				1FCD60FC1DE4B9F900DA3CA5 /* ViewController.m in Sources */,
 				1FCD61021DE4B9F900DA3CA5 /* HikerTrailGuide.xcdatamodeld in Sources */,
 				1FCD61191DE51A5800DA3CA5 /* TrailPark.m in Sources */,
+				1F4138C81DE6879200EC3242 /* TrailAnnotation.m in Sources */,
 				1FCD60F91DE4B9F900DA3CA5 /* AppDelegate.m in Sources */,
 				1FCD611F1DE51E4000DA3CA5 /* TrailMapOverlayView.m in Sources */,
+				1F4138CB1DE6885D00EC3242 /* TrailAnnotationView.m in Sources */,
 				1FCD611C1DE51D9C00DA3CA5 /* TrailMapOverlay.m in Sources */,
 				1FCD60F61DE4B9F900DA3CA5 /* main.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "TrailPark.h"
+#import "TrailAnnotation.h"
 
 @implementation TrailPark
 
@@ -37,6 +38,19 @@
         for(int i = 0; i < _trailPointsCount; i++) {
             CGPoint p = CGPointFromString(trailPoints[i]);
             _trail[i] = CLLocationCoordinate2DMake(p.x,p.y);
+        }
+        
+        NSArray *annotations = properties[@"annotations"];
+        self.trailAnnotations = [[NSMutableArray alloc] init];
+        
+        for (NSDictionary *attraction in annotations) {
+            TrailAnnotation *annotation = [[TrailAnnotation alloc] init];
+            CGPoint point = CGPointFromString(attraction[@"location"]);
+            annotation.coordinate = CLLocationCoordinate2DMake(point.x, point.y);
+            annotation.title = attraction[@"name"];
+            annotation.type = [attraction[@"type"] integerValue];
+            annotation.subtitle = attraction[@"subtitle"];
+            [self.trailAnnotations addObject:annotation];
         }
     }
     

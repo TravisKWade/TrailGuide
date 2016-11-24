@@ -19,5 +19,6 @@
 @property (strong, nonatomic) TrailPark *park;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
+@property BOOL firstLocationSet;
 @end
 

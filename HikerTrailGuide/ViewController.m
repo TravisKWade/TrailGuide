@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TrailAnnotation.h"
 
 #define METERS_PER_MILE 1609.344
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.firstLocationSet = NO;
     
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
@@ -33,8 +36,9 @@
     
     self.mapView.region = region;
     
-    //[self addOverlay];
+    [self addOverlay];
     [self addTrail];
+    [self addAnnotations];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
@@ -59,6 +63,13 @@
     [self.mapView addOverlay:polyLine];
 }
 
+- (void) addAnnotations {
+    
+    for (TrailAnnotation *annotation in self.park.trailAnnotations) {
+        [self.mapView addAnnotation:annotation];
+    }
+}
+
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
     if ([overlay isKindOfClass:TrailMapOverlay.class]) {
         UIImage *magicMountainImage = [UIImage imageNamed:@"galena.png"];
@@ -78,8 +89,11 @@
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 800, 800);
-    [self.mapView setRegion:[self.mapView regionThatFits:region] animated:YES];
+    if(!self.firstLocationSet) {
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 800, 800);
+        [self.mapView setRegion:[self.mapView regionThatFits:region] animated:YES];
+        self.firstLocationSet = YES;
+    }
 }
 - (NSString *)deviceLocation {
     return [NSString stringWithFormat:@"latitude: %f longitude: %f", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude];
