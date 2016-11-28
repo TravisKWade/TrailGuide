@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F4138C81DE6879200EC3242 /* TrailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4138C71DE6879200EC3242 /* TrailAnnotation.m */; };
 		1F4138CB1DE6885D00EC3242 /* TrailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */; };
+		1F5184221DE7431300D42B22 /* Trail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5184211DE7431300D42B22 /* Trail.m */; };
 		1F783FFC1DE5EEBC003C3F7B /* galena.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F783FFB1DE5EEBC003C3F7B /* galena.png */; };
 		1FCD60F61DE4B9F900DA3CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD60F51DE4B9F900DA3CA5 /* main.m */; };
 		1FCD60F91DE4B9F900DA3CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD60F81DE4B9F900DA3CA5 /* AppDelegate.m */; };
@@ -29,6 +30,8 @@
 		1F4138C71DE6879200EC3242 /* TrailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailAnnotation.m; sourceTree = "<group>"; };
 		1F4138C91DE6885D00EC3242 /* TrailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailAnnotationView.h; sourceTree = "<group>"; };
 		1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailAnnotationView.m; sourceTree = "<group>"; };
+		1F5184201DE7431300D42B22 /* Trail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trail.h; sourceTree = "<group>"; };
+		1F5184211DE7431300D42B22 /* Trail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trail.m; sourceTree = "<group>"; };
 		1F783FFB1DE5EEBC003C3F7B /* galena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galena.png; path = ../../../../../../Desktop/galena.png; sourceTree = "<group>"; };
 		1FCD60F11DE4B9F900DA3CA5 /* HikerTrailGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikerTrailGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCD60F51DE4B9F900DA3CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				1F4138C71DE6879200EC3242 /* TrailAnnotation.m */,
 				1F4138C91DE6885D00EC3242 /* TrailAnnotationView.h */,
 				1F4138CA1DE6885D00EC3242 /* TrailAnnotationView.m */,
+				1F5184201DE7431300D42B22 /* Trail.h */,
+				1F5184211DE7431300D42B22 /* Trail.m */,
 			);
 			path = HikerTrailGuide;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				1F4138C81DE6879200EC3242 /* TrailAnnotation.m in Sources */,
 				1FCD60F91DE4B9F900DA3CA5 /* AppDelegate.m in Sources */,
 				1FCD611F1DE51E4000DA3CA5 /* TrailMapOverlayView.m in Sources */,
+				1F5184221DE7431300D42B22 /* Trail.m in Sources */,
 				1F4138CB1DE6885D00EC3242 /* TrailAnnotationView.m in Sources */,
 				1FCD611C1DE51D9C00DA3CA5 /* TrailMapOverlay.m in Sources */,
 				1FCD60F61DE4B9F900DA3CA5 /* main.m in Sources */,

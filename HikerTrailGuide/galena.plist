@@ -464,7 +464,20 @@
                 <key>subtitle</key>
                 <string>Leave the grass and get back on the trail</string>
             </dict>
-
+        </array>
+        <key>alternates</key>
+        <array>
+            <dict>
+                <key>trail</key>
+                <array>
+                    <string>{47.533637,-116.163987}</string>
+                    <string>{47.533548,-116.163934}</string>
+                    <string>{47.533409,-116.163969}</string>
+                    <string>{47.533237,-116.164108}</string>
+                    <string>{47.533108,-116.164237}</string>
+                    <string>{47.533072,-116.164368}</string>
+                </array>
+            </dict>
         </array>
     </dict>
 </plist>

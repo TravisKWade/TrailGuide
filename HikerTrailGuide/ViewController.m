@@ -39,6 +39,7 @@
     [self addOverlay];
     [self addTrail];
     [self addAnnotations];
+    [self addTrailAlternates];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
@@ -61,6 +62,10 @@
 - (void) addTrail {
     MKPolyline *polyLine = [MKPolyline polylineWithCoordinates:self.park.trail count:self.park.trailPointsCount];
     [self.mapView addOverlay:polyLine];
+}
+    
+- (void) addTrailAlternates {
+    
 }
 
 - (void) addAnnotations {

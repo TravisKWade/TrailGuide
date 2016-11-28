@@ -52,6 +52,21 @@
             annotation.subtitle = attraction[@"subtitle"];
             [self.trailAnnotations addObject:annotation];
         }
+        
+        NSArray *alternates = properties[@"alternates"];
+        self.trailAlternates = [[NSMutableArray alloc] init];
+        
+        for (NSDictionary *altTrail in alternates) {
+            NSArray *altTrailPoints = altTrail[@"trail"];
+            CLLocationCoordinate2D *alternateTrail = malloc(sizeof(CLLocationCoordinate2D)*  altTrailPoints.count);
+            
+            for(int i = 0; i < altTrailPoints.count; i++) {
+                CGPoint p = CGPointFromString(trailPoints[i]);
+                alternateTrail[i] = CLLocationCoordinate2DMake(p.x,p.y);
+            }
+            
+            [self.trailAlternates addObject:(__bridge id _Nonnull)(alternateTrail)];
+        }
     }
     
     return self;

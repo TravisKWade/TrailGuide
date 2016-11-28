@@ -23,6 +23,7 @@
 @property (nonatomic, readonly) MKMapRect overlayBoundingMapRect;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSMutableArray *trailAnnotations;
+@property (nonatomic, strong) NSMutableArray *trailAlternates;
 
 - (instancetype)initWithFilename:(NSString *)filename;
 
